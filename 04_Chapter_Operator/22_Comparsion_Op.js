@@ -26,7 +26,10 @@ console.log(5 === "5"); // stict not allowed - valeu + datatype both
 
 // ! -> not char
 console.log(5 != "5"); // value
-console.log(5 !== "5"); // (with !, == actuall ===) !===
+console.log(5 !== "5");
+console.log(test);  // (with !, == actuall ===) !===
 
 
 console.log(5 === 5);
+
+console.log(0.1 + 0.2 == 0.3);

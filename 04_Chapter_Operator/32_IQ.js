@@ -1,0 +1,9 @@
+let responseTime = 850;  // ms
+let sla = 1000;          // ms
+let slaStatus = responseTime <= sla ? "Within SLA ✅" : "SLA breached ❌";//true
+console.log(`Response: ${responseTime}ms — ${slaStatus}`);
+//Response 850ms - Within SLA ✅
+
+
+// Template Literal
+console.log(`What is the SLA time ? - ${sla}`);//What is the SLA time ? - 1000

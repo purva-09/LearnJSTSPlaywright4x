@@ -31,3 +31,6 @@ console.log("100 % 2: " +100 % 2);
 // Exponential **, power 2^3 -> 8
 console.log("2 ** 3: " +2 ** 3);
 console.log(a ** b); // 10^3 -> 1000
+console.log(true+true*3);
+
+console.log(2 + '2' - 2);
