@@ -6,3 +6,9 @@ console.log(rest); // [30, 40, 50]
 
 let [, , thirdOnly] = [10, 20, 30];
 console.log(thirdOnly);
+
+let arr = [1, 2, 3, 2, 4, 1];
+let newArr = arr.filter((item, index) => arr.indexOf(item) !== index);
+arr.
+
+console.log(newArr);
